@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/action_sheet_bg_color">
+    <TextView
+        android:id="@+id/id_action_sheet_tv"
+        android:layout_width="@dimen/action_sheet_tv_width"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/action_sheet_tv_margin_top"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="未检查到存储设备，请插入U盘后重试"
+        android:textColor="@color/layout_export_view_color"
+        android:textSize="@dimen/action_sheet_text_size"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_action_sheet_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/action_sheet_ll_margin_top"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/action_sheet_ll_padding_bottom">
+        <Button
+            android:id="@+id/id_action_sheet_ok"
+            style="@style/Button_Next_Small_Style"
+            android:layout_height="@dimen/fragment_contact_btn_height"
+            android:text="确定"
+        />
+
+        <Button
+            android:id="@+id/id_action_sheet_cancel"
+            style="@style/Button_Next_Small_Style"
+            android:layout_height="@dimen/fragment_contact_btn_height"
+            android:layout_marginLeft="@dimen/action_sheet_ll_btn_interval"
+            android:text="取消"
+        />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

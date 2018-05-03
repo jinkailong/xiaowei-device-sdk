@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_alarm_root"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_alarm_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开会"
+                android:textColor="@color/kttv_common_white60"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/txt_alarm_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_alarm_event"
+                android:layout_marginTop="10dp"
+                android:text="10:00"
+                android:textColor="@color/white40"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_alarm_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/txt_alarm_time"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_toEndOf="@+id/txt_alarm_time"
+                android:layout_toRightOf="@id/txt_alarm_time"
+                android:text="今天"
+                android:textColor="@color/white40"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/img_alarm_switch"
+                android:layout_width="40dp"
+                android:layout_height="22dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_circle_white" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_alarm_delete"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@color/red40"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="删除" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/txt_alarm_day"
+        android:background="#33979797" />
+</LinearLayout>

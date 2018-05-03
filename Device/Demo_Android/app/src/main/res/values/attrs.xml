@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="EmojiconStyle">
+        <attr name="emojiconGridViewStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="Emojicon">
+        <attr name="emojiconSize" format="dimension" />
+        <attr name="emojiconAlignment" format="enum">
+            <enum name="bottom" value="0" />
+            <enum name="baseline" value="1" />
+        </attr>
+        <attr name="emojiconTextStart" format="integer" />
+        <attr name="emojiconTextLength" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="DraggableFlagView"></declare-styleable>
+
+    <declare-styleable name="round_imageview">
+        <attr name="border_color" format="color"/>
+        <attr name="border_width" format="dimension"/>
+        <attr name="circle" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="setting_item_attrs">
+        <attr name="item_text" format="string" />
+        <attr name="item_image" format="integer" />
+        <attr name="has_divider" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="VoiceView">
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+    </declare-styleable>
+    <declare-styleable name="XiaoweiCircle">
+        <attr name="xc_border_color" format="color" />
+        <attr name="xc_border_width" format="dimension" />
+        <attr name="xc_rotate_offset_x" format="dimension" />
+        <attr name="xc_rotate_offset_y" format="dimension" />
+    </declare-styleable>
+</resources>

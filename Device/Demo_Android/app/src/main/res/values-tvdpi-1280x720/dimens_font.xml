@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- sport match detail info -->
+    <dimen name="title_item_textSize">14sp</dimen>
+    <dimen name="tv_teamLogoView_textSize">16sp</dimen>
+    <dimen name="tv_match_detail_titleTextSize">12sp</dimen>
+    <dimen name="tv_match_detail_score_textSize">18sp</dimen>
+    <dimen name="tv_match_detail_liveTime_Pre">14sp</dimen>
+
+    <!-- sport match collection -->
+    <dimen name="match_colletion_item_durTextSize">13sp</dimen>
+    <dimen name="match_colletion_item_titleTextSize">14sp</dimen>
+    <dimen name="match_coll_posText">19sp</dimen>
+    <dimen name="tv_match_mini_player_tips">18sp</dimen>
+	<dimen name="tv_match_mini_player_no_login">15sp</dimen>
+    
+		<!-- sport team player -->
+	<dimen name="sport_players_nav_item_textSize">20sp</dimen>
+</resources>

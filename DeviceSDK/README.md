@@ -1,0 +1,1 @@
+interface中包括c++的头文件，主要是一些接口的定义，更详细的说明，参考[WIKI](https://xiaowei.qcloud.com/wiki/#OpenSrc_index)。

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fm_bg_black"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/fm_bg_black"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="通道版demo    "
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_din"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_title"
+            android:text="din:"
+            android:textColor="@color/white" />
+
+        <GridView
+            android:id="@+id/gv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/tv_din"
+            android:numColumns="4"></GridView>
+
+
+        <ListView
+            android:id="@+id/msglist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="10dp"></ListView>
+
+        <ImageView
+            android:id="@+id/iv_ercode"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone" />
+
+
+        <RelativeLayout
+            android:id="@+id/rl_et"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_above="@+id/tv_wakeup_tips_scroll">
+
+            <EditText
+                android:id="@+id/et_main"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/btn_request"
+                android:hint="天气怎么样"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_request"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="#333"
+                android:text="确定"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/tv_wakeup_tips_scroll"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/black">
+
+            <TextView
+                android:id="@+id/tv_wakeup_tips"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white" />
+        </ScrollView>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onWakeup" />
+
+    <TextView
+        android:id="@+id/v_gray"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9000"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="离线了"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

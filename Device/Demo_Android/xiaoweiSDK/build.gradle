@@ -1,0 +1,85 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+//        externalNativeBuild {
+//            cmake {
+//                // Use the following syntax when passing arguments to variables:
+//                // arguments "-DVAR_NAME=ARGUMENT".
+//                arguments "-DANDROID_STL=stlport_shared", "-DNOSHARP=true"
+//                // If you're passing multiple arguments to a variable, pass them together:
+//                // arguments "-DVAR_NAME=ARG_1 ARG_2"
+//                // The following line passes 'rtti' and 'exceptions' to 'ANDROID_CPP_FEATURES'.
+//                //"-DANDROID_CPP_FEATURES=rtti exceptions"
+//            }
+//        }
+//
+//        ndk {
+//            // Specifies the ABI configurations of your native
+//            // libraries Gradle should build and package with your APK.
+//            abiFilters 'armeabi'
+//        }
+    }
+    def dump_voice
+    if(System.getenv("build.dump.voice") == "1") {
+        dump_voice = "true"
+    }
+    else {
+        dump_voice = "false"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+    }
+
+    buildTypes.each {
+        it.buildConfigField "boolean", "VOICE_DUMP", dump_voice
+    }
+
+
+    lintOptions{
+        abortOnError false
+    }
+
+    sourceSets {
+        main.aidl.srcDirs = ['src']
+        main.jniLibs.srcDirs += ['libs']
+    }
+
+    dexOptions {
+        incremental true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+
+//    externalNativeBuild {
+//        cmake {
+//            path 'CMakeLists.txt'
+//        }
+//    }
+}
+
+dependencies {
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:support-v4:24.0.0'
+    compile 'com.google.code.gson:gson:2.3'
+}

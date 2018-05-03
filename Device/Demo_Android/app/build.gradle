@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.tencent.aiaudio.demo"
+        minSdkVersion 14
+        targetSdkVersion 18
+        versionCode 1
+        versionName "1.0"
+    }
+
+    def isNeedVoiceLink
+    if (System.getenv("build.isneed.voicelink") == "1") {
+        isNeedVoiceLink = "true"
+    } else {
+        isNeedVoiceLink = "false"
+    }
+
+    buildTypes.each {
+        it.buildConfigField("boolean", "IS_NEED_VOICE_LINK", isNeedVoiceLink)
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions{
+        abortOnError false
+    }
+
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile(name: 'opencore-amr-android-1.1.1', ext: 'aar')
+    compile 'com.google.zxing:core:3.2.1'
+    compile project(':control')
+    compile project(':xiaoweiSDK')
+    compile project(':wakeup')
+    compile 'com.android.support:support-v4:24.0.0'
+    compile(name: 'zxing-android-embedded-3.3.0', ext: 'aar')
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.android.support:recyclerview-v7:23.0.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+}

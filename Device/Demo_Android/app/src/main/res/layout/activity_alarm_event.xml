@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/fm_bg_black"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/block_head"/>
+
+    <com.tencent.aiaudio.view.SwipeRecyclerview
+        android:id="@+id/rcyl_alarm_event"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingStart="50dp"
+        android:layout_marginTop="16dp"
+        android:paddingEnd="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.tencent.aiaudio.view.SwipeRecyclerview>
+
+</LinearLayout>

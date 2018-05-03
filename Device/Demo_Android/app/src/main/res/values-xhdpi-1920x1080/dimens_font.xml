@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_choose_export_tv_pad">8sp</dimen>
+    <dimen name="album_item_pad">17.5sp</dimen>
+    <dimen name="action_sheet_text_size">19.5sp</dimen>
+    <dimen name="activty_choose_export_tv_size">15.0sp</dimen>
+    <dimen name="layout_export_view_text_size">15.0sp</dimen>
+    <dimen name="layout_export_view_text_size_2">12.0sp</dimen>
+    <dimen name="activity_login_loading_text_size">18.0sp</dimen>
+    <dimen name="activity_login_bind_tips_text_size">19.5sp</dimen>
+    <dimen name="indicator_title_text_size_highlight">21.0sp</dimen>
+    <dimen name="indicator_title_text_size_normal">18.75sp</dimen>
+    <dimen name="indicator_message_red_point_text_size">12.0sp</dimen>
+    <dimen name="indicator_device_sn_text_size">12.0sp</dimen>
+    <dimen name="indicator_right_logo_text_size">14.25sp</dimen>
+    <dimen name="indicator_device_qq_text_size">17dp</dimen>
+    <dimen name="frgment_contact_binder_text_size">13.5sp</dimen>
+    <dimen name="fragment_contact_dragindicator_text_size">10.5sp</dimen>
+    <dimen name="fragment_contact_friend_text_size">13.5sp</dimen>
+    <dimen name="social_num_edittext_text_size">22.5sp</dimen>
+    <dimen name="social_num_btn_next_text_size">22.5sp</dimen>
+    <dimen name="social_num_btn_know_sn_text_size">16.5sp</dimen>
+    <dimen name="activity_know_device_sn_title_text_size">20.25sp</dimen>
+    <dimen name="activity_know_device_sn_title_des_text_size">19.5sp</dimen>
+    <dimen name="activity_know_device_sn_device_qq_text_size">50.25sp</dimen>
+    <dimen name="activity_know_device_sn_btn_next_text_size">22.5sp</dimen>
+
+    <dimen name="activity_edit_contact_title_text_size">25.5sp</dimen>
+    <dimen name="activity_edit_contact_item_name_text_size">18.0sp</dimen>
+    <dimen name="activity_add_contact_title_text_size">25.5sp</dimen>
+    <dimen name="activity_add_contact_content_text_size">16.5sp</dimen>
+    <dimen name="activity_author_qq_friend_text_size">20.25sp</dimen>
+    <dimen name="activity_add_tv_friend_text_size">17.25sp</dimen>
+
+    <dimen name="activity_device_name_guide_title_text_size">20.25sp</dimen>
+    <dimen name="activity_device_name_guide_text_size">22.5sp</dimen>
+    <dimen name="activity_device_name_guide_btn_next_text_size">22.5sp</dimen>
+    <dimen name="activity_device_name_edit_title_text_size">22.5sp</dimen>
+    <dimen name="activity_device_name_edit_btn_next_text_size">22.5sp</dimen>
+    <dimen name="activity_add_friend_finish_text_size">19.5sp</dimen>
+    <dimen name="activity_rsp_add_friend_text_size">24.75sp</dimen>
+    <dimen name="item_friend_rsp_text_size">19.5sp</dimen>
+    <dimen name="item_friend_rsp_offline_text_size">10.5sp</dimen>
+    <dimen name="fragment_msg_empty_view_text_size">19.5sp</dimen>
+    <dimen name="activity_album_del_btn_next_text_size">22.5sp</dimen>
+    <dimen name="fragment_discovery_text_size">18.0sp</dimen>
+    <dimen name="activity_text_msg_detail_text_size">27.0sp</dimen>
+    <dimen name="layout_accept_video_chat_text_size">24.75sp</dimen>
+    <dimen name="layout_request_video_chat_text_size">18.0sp</dimen>
+    <dimen name="item_camera_select_text_size">18.0sp</dimen>
+    <dimen name="layout_friend_closed_camera_text_size">16.5sp</dimen>
+    <dimen name="activity_video_chat_text_nick_text_size">27.0sp</dimen>
+    <dimen name="activity_video_chat_tv_dis_text_size">18.0sp</dimen>
+    <dimen name="item_add_friend_btn_text_size">17.25sp</dimen>
+    <dimen name="styles_video_chat_text_btn_style_text_size">12.0sp</dimen>
+    <dimen name="styles_msg_nick_item_style_text_size">13.5sp</dimen>
+    <dimen name="styles_msg_time_item_style_text_size">13.5sp</dimen>
+    <dimen name="styles_msg_content_text_item_style_text_size">18.0sp</dimen>
+    <dimen name="styles_keyboard_text_size">22.5sp</dimen>
+    <dimen name="styles_keyboard_del_text_size">16.5sp</dimen>
+    <dimen name="styles_btn_next_style_text_size">22.5sp</dimen>
+    <dimen name="styles_btn_next_small_style_text_size">14.25sp</dimen>
+    <dimen name="styles_text_default_style_text_size">24.0sp</dimen>
+    <dimen name="styles_btn_certain_style_text_size">22.5sp</dimen>
+    <dimen name="styles_btn_add_tv_style_text_size">20.25sp</dimen>
+
+    <dimen name="activity_fm_title_size">24.0sp</dimen>
+    <dimen name="activity_fm_sub_title_size">28.5sp</dimen>
+    <dimen name="activity_fm_author_size">18.0sp</dimen>
+    <dimen name="activity_fm_progress_size">15.0sp</dimen>
+    <dimen name="new_msg_float_view_title">16.5sp</dimen>
+    <dimen name="new_msg_float_view_content">18.0sp</dimen>
+    <dimen name="dialog_confirm_msg_size">18.0sp</dimen>
+    <dimen name="dialog_update_title_size">21.0sp</dimen>
+    <dimen name="dialog_update_msg_size">13.5sp</dimen>
+    <!-- dimensions for detail page -->
+    <dimen name="kttv_common_detail_episode_item_text_size">15.0sp</dimen>
+
+    <!-- dimensions for video player -->
+    <dimen name="kttv_common_video_title_text_size">20.0025sp</dimen>
+    <dimen name="kttv_common_video_loading_text_size">15.0sp</dimen>
+    <dimen name="kttv_common_video_remind_text_size">15.0sp</dimen>
+    <dimen name="kttv_common_video_title_toast_textsize">19.5sp</dimen>
+
+    <dimen name="kttv_common_video_player_menu_text_size">15.0sp</dimen>
+    <dimen name="kttv_projection_video_player_loading_network_text_size">18.0sp</dimen>
+    <dimen name="kttv_projection_video_prepare_title_text_size">18.0sp</dimen>
+    <dimen name="kttv_common_video_player_bottom_time_text_size">15.0sp</dimen>
+    <dimen name="kttv_common_player_menu_remind_text_size">15.0sp</dimen>
+    <dimen name="kttv_projection_samll_window_show_tips_top_size">12.997499sp</dimen>
+    <dimen name="kttv_projection_samll_window_show_tips_bottom_size">15.997499sp</dimen>
+    <dimen name="kttv_common_samll_window_title_text_size">12.0sp</dimen>
+
+
+    <dimen name="kttv_common_tvdialog_title_font_size">18.0sp</dimen>
+    <dimen name="kttv_common_tvdialog_msg_font_size">11.25sp</dimen>
+    <dimen name="kttv_common_tvdialog_btn_font_size">13.5sp</dimen>
+
+    <!-- <dimen name="kttv_common_episode_prompt_content_size">20sp</dimen> -->
+    <dimen name="kttv_common_episode_prompt_content_size">15.0sp</dimen>
+
+    <!-- error text font size -->
+    <dimen name="kttv_common_error_player_title_size">20.0025sp</dimen>
+    <dimen name="kttv_common_error_player_extra_title_size">18.0sp</dimen>
+    <dimen name="kttv_common_error_player_button_text_size">15.0sp</dimen>
+    <dimen name="kttv_common_small_view_error_player_title_size">12.0sp</dimen>
+    <dimen name="kttv_common_small_view_error_player_extra_title_size">9.997499sp</dimen>
+
+    <dimen name="kttv_common_error_player_title_size_comm">20.0025sp</dimen>
+    <dimen name="kttv_common_error_player_extra_title_size_comm">18.0sp</dimen>
+    <dimen name="kttv_common_error_player_button_text_size_comm">15.0sp</dimen>
+
+
+    <dimen name="kttv_projection_choice_title">21.0sp</dimen>
+    <dimen name="kttv_projection_unbind_dialog_btn_text_size">19.5sp</dimen>
+    <dimen name="kttv_projection_unbind_choic_grid_item_tx">18.0sp</dimen>
+    <dimen name="kttv_projection_unbind_choic_grid_item_tip">15.0sp</dimen>
+	<dimen name="activity_about_version_size">12.0sp</dimen>
+    <dimen name="activity_about_app_name_size">18.0sp</dimen>
+    <dimen name="activity_suggest_tips_size">15.0sp</dimen>
+
+    <dimen name="activity_title_text_size">25.5sp</dimen>
+
+</resources>

@@ -1,0 +1,92 @@
+<resources>
+
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+
+    <style name="Theme.NoBackgroundAndTitleTranslucent" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:style/Theme.Light.NoTitleBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:listDivider">@drawable/divider_add_friend</item>
+    </style>
+
+
+    <style name="Button_Next_Style">
+        <item name="android:layout_width">@dimen/styles_btn_next_style_layout_width</item>
+        <item name="android:layout_height">@dimen/styles_btn_next_style_layout_height</item>
+        <item name="android:background">@drawable/btn_big_blue_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_default</item>
+        <item name="android:textSize">@dimen/styles_btn_next_style_text_size</item>
+    </style>
+
+    <style name="Button_Next_Small_Style">
+        <item name="android:layout_width">@dimen/styles_btn_next_small_style_layout_width</item>
+        <item name="android:layout_height">@dimen/styles_btn_next_small_style_layout_height</item>
+        <item name="android:background">@drawable/btn_blue_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#cc292633</item>
+        <item name="android:textSize">@dimen/styles_btn_next_small_style_text_size</item>
+    </style>
+
+    <style name="Text_Default_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#292633</item>
+        <item name="android:textSize">@dimen/styles_text_default_style_text_size</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="VideoChatBtnStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/styles_video_chat_btn_style_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/styles_video_chat_btn_style_margin_right
+        </item>
+        <item name="android:descendantFocusability">beforeDescendants</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="VideoChatIconBtnStyle">
+        <item name="android:layout_width">@dimen/styles_video_chat_icon_btn_style_size</item>
+        <item name="android:layout_height">@dimen/styles_video_chat_icon_btn_style_size</item>
+        <item name="android:focusable">true</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="VideoChatTextBtnStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/styles_video_chat_text_btn_style_text_size</item>
+        <item name="android:layout_marginTop">@dimen/styles_video_chat_text_btn_style_margin_top
+        </item>
+    </style>
+
+    <style name="ActionSheetDialog" parent="android:Theme.Dialog">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tencent.aiaudio.demo">
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <uses-permission android:name="com.tencent.xiaowei.demo.chat" />
+
+    <application
+        android:name="com.tencent.aiaudio.CommonApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.tencent.aiaudio.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VOICE_COMMAND" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.tencent.aiaudio.service.AIAudioService" />
+
+        <service android:name="com.tencent.aiaudio.service.ControlService" />
+
+        <service android:name="com.tencent.aiaudio.service.WakeupAnimatorService" />
+
+        <service android:name="com.tencent.aiaudio.bledemo.BLEService" />
+
+
+        <activity
+            android:name="com.tencent.aiaudio.activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name="com.tencent.aiaudio.activity.MusicActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.tencent.aiaudio.activity.FMActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.tencent.aiaudio.activity.NewsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.tencent.aiaudio.activity.WifiDecodeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name="com.tencent.aiaudio.activity.OtherActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name="com.tencent.aiaudio.activity.WeatherActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name="com.tencent.aiaudio.activity.HelperActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name="com.tencent.aiaudio.bledemo.BLEActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.tencent.aiaudio.activity.AlarmActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.tencent.aiaudio.activity.Alarm2Activity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.tencent.aiaudio.activity.AlarmEventActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.tencent.aiaudio.activity.EditAlarmActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.tencent.aiaudio.activity.BinderActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.tencent.aiaudio.activity.ContactActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+
+        <receiver android:name="com.tencent.aiaudio.receiver.NetworkReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.tencent.aiaudio.alarm.SkillAlarmManager$StartAlarmBroadcastReceiver" />
+        <receiver android:name="com.tencent.aiaudio.receiver.NetworkReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.tencent.av.XWAVChatAIDLService">
+            <intent-filter android:priority="1000">
+                <action android:name="com.tencent.xiaowei.RemoteTXDeviceCoreService" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

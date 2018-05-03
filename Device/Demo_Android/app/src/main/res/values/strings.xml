@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Xiaowei Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello device!</string>
+    <string name="close_video">关闭</string>
+    <string name="switch_camera">切换摄像头</string>
+    <string name="camera_image">camera image</string>
+    <string name="reject_video">拒绝</string>
+    <string name="accept_video">接受</string>
+    <string name="bussiness_name">business_name:\nFileMsg表示发送文件\nImgMsg表示发送图片\nVideoMsg表示发送视频\nAudioMsg表示发送语音\nchanneltype:\n1表示FTN通道，2表示小文件通道\nfiletype:\n1是图片，2是视频，3是语音,4表示其他文件</string>
+    <string name="loging">正在登录...</string>
+    <string name="loging_tip">登录帐号，开启智能生活</string>
+    <string name="bind_ercode">使用手机QQ扫描二维码绑定登录</string>
+    <string name="str_recorder_normal">按住说话</string>
+    <string name="str_recorder_recording">松开结束</string>
+    <string name="str_recorder_want_cancel">松开手指, 取消发送</string>
+    <string name="str_dialog_recording">手指上滑，取消发送</string>
+    <string name="str_dialog_want_cancel">松开手指，取消发送</string>
+    <string name="str_dialog_voice_short">录音时间过短</string>
+    <string name="title_activity_helper">试试这些</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="title_activity_decoder">扫一扫</string>
+    <string name="title_menu_add_device">添加设备</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="card_menu_feed_correct">对本次识别满意</string>
+    <string name="card_menu_feed_wrong">对本次识别不满意</string>
+    <string name="card_menu_delete">移除消息</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_device">DeviceActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="test_tip">\"小薇小薇，我要听音乐\"</string>
+    <string name="txt_describe">奥巴马（ 全名：Barack Hussein Obama II，贝拉克·侯赛因·奥巴马二世，1961年8月4日 ），美国第44任总统，出生于美国夏威夷州火奴鲁鲁，他的父亲的祖籍是肯尼亚（The Republic of Kenya）。奥巴马是首位拥有黑人血统，并且童年在亚洲和印度尼西亚成长的美国总统，与不同地方与不同文化背景的人共同生活过。2008年11月5日，奥巴马当选美国第44任（第56届）总统，他也是美国首位混血“黑人”总统。2011年4月4日，奥巴马宣布竞选2012年美国总统。2012年11月6日晚（当地时间），奥巴马在美国大选中获得超过 270 张选举人票，连任美国总统。2015年10月，《彭博市场》公布了第五届全球金融50大最具影响力人物，美国总统奥巴马排名第六。2015年11月4日，奥巴马名列《福布斯》全球最有权力人物排行榜第三位。2015年12月22日，国际民调机构盖洛普调查称，奥巴马在最受欢迎的领导人排名中名列第一。2016年5月7日，奥巴马出席霍华德大学毕业典礼，获得理学博士荣誉学位。2017年1月20日，奥巴马正式卸任美国总统。奥巴马（ 全名：Barack Hussein Obama II，贝拉克·侯赛因·奥巴马二世，1961年8月4日 ），美国第44任总统，出生于美国夏威夷州火奴鲁鲁，他的父亲的祖籍是肯尼亚（The Republic of Kenya）。奥巴马是首位拥有黑人血统，并且童年在亚洲和印度尼西亚成长的美国总统，与不同地方与不同文化背景的人共同生活过。2008年11月5日，奥巴马当选美国第44任（第56届）总统，他也是美国首位混血“黑人”总统。2011年4月4日，奥巴马宣布竞选2012年美国总统。2012年11月6日晚（当地时间），奥巴马在美国大选中获得超过 270 张选举人票，连任美国总统。2015年10月，《彭博市场》公布了第五届全球金融50大最具影响力人物，美国总统奥巴马排名第六。2015年11月4日，奥巴马名列《福布斯》全球最有权力人物排行榜第三位。2015年12月22日，国际民调机构盖洛普调查称，奥巴马在最受欢迎的领导人排名中名列第一。2016年5月7日，奥巴马出席霍华德大学毕业典礼，获得理学博士荣誉学位。2017年1月20日，奥巴马正式卸任美国总统。</string>
+    <string name="txt_save">保存</string>
+
+    <!--QQ音乐-->
+    <string name="music_title">QQ音乐</string>
+    <string name="music_collection">我的收藏</string>
+    <string name="help">帮助</string>
+    <string name="help_music_1">\"小薇,我想听热搜榜\"</string>
+    <string name="help_music_2">\"小薇,我想听陈奕迅的《好久不见》\"</string>
+    <string name="help_music_3">\"小薇,播放我的歌单\"</string>
+    <string name="help_music_4">\"小薇,收藏这首歌\"</string>
+
+    <string name="loss_less_quality">无损品质</string>
+    <string name="high_quality">高品质</string>
+    <string name="normal_quality">标准</string>
+    <string name="low_quality">流畅</string>
+    <string name="my_favorite">我的收藏</string>
+
+</resources>

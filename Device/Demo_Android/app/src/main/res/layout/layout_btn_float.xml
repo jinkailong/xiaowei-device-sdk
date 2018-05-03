@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_wakeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#6000"
+        android:text="模拟叮咚键" />
+
+    <Button
+    android:id="@+id/btn_stop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="#6000"
+    android:text="暂停播放" />
+
+    <Button
+        android:id="@+id/btn_keep_silence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#6000"
+        android:text="静音" />
+
+    <TextView
+        android:id="@+id/is_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#6000"
+        android:text="没有录音" />
+
+</LinearLayout>

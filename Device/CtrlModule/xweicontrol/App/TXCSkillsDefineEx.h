@@ -1,0 +1,10 @@
+#ifndef __TX_CLOUD_SKILL_DEFINE_EX_H__
+#define __TX_CLOUD_SKILL_DEFINE_EX_H__
+
+#include "TXCSkillsDefine.h"
+
+CXX_EXTERN_BEGIN
+
+CXX_EXTERN_END
+
+#endif // __TX_CLOUD_SKILL_DEFINE_EX_H__

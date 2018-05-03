@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_ble_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开蓝牙" />
+
+    <Button
+        android:id="@+id/btn_ble_dis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

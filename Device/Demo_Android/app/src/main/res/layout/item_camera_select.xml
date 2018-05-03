@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_camera_select_layout_height"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/item_camera_select_padding_left">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="摄像头1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/item_camera_select_text_size"/>
+
+    <ImageView
+        android:id="@+id/iv_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/item_camera_select_margin_right"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_camera_selected"/>
+
+</RelativeLayout>

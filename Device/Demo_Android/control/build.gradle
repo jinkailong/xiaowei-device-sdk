@@ -1,0 +1,87 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    lintOptions {
+        abortOnError false
+    }
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+//        externalNativeBuild {
+//            cmake {
+//                arguments "-DbuildDir=" + buildDir.parent, "-DprojectDir=" + projectDir
+//            }
+//        }
+//
+//        ndk {
+//            abiFilters 'armeabi'
+//        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'   // aar目录
+        }
+    }
+
+    sourceSets {
+        main.aidl.srcDirs = ['src']
+        main.jniLibs.srcDirs += ['libs']
+    }
+
+    dexOptions {
+        incremental true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+//    tasks.whenTaskAdded {
+//        task ->
+//            Properties properties = new Properties()
+//            properties.load(project.rootProject.file('local.properties').newDataInputStream())
+//            String useCmake = properties.getProperty('native.cmake')
+//            if (useCmake != null && useCmake.toBoolean()) {
+//                if(task.name == "ndkBuildXWeiControl" ) {
+//                    task.enabled = false;
+//                }
+//            } else {
+//                if (task.name.startsWith("externalBuild")) {
+//                    task.enabled = false;
+//                }
+//            }
+//    }
+//
+//    externalNativeBuild {
+//        cmake {
+//            path 'CMakeLists.txt'
+//        }
+//    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:support-v4:24.0.0'
+    testCompile 'junit:junit:4.12'
+    compile project(':xiaoweiSDK')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+}

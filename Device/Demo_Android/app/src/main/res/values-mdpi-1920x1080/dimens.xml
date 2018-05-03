@@ -1,0 +1,99 @@
+<resources>
+
+
+    <!-- dimen for player activity -->
+    <dimen name="kttv_projection_video_player_loading_icon_margin_top">165dp</dimen>
+    <dimen name="kttv_common_video_player_loading_center_view_width">15dp</dimen>
+    <dimen name="kttv_common_video_player_loading_center_view_height">1.5dp</dimen>
+    <dimen name="kttv_projection_video_prepare_loading_image_layout_margint_top">15dp</dimen>
+    <dimen name="kttv_projection_video_prepare_title_text_margint_top">30dp</dimen>
+
+    <!-- diemn for player controller view -->
+    <dimen name="kttv_common_video_top_layout_height">120dp</dimen>
+    <dimen name="kttv_common_video_title_margin">80dp</dimen>
+    <dimen name="kttv_common_video_title_width">1440dp</dimen>
+    <dimen name="kttv_common_video_bottom_layout_height">150dp</dimen>
+    <dimen name="kttv_common_video_bottom_right_margin">64dp</dimen>
+    <dimen name="kttv_common_video_seek_bar_layout_height">18dp</dimen>
+    <dimen name="kttv_common_video_bottom_left_margin">100dp</dimen>
+    <dimen name="kttv_common_video_seek_bar_layout_margin_right">80dp</dimen>
+    <dimen name="kttv_common_video_seek_bar_layout_margin_bottom">40dp</dimen>
+    <dimen name="kttv_common_video_time_margin_bottom">30dp</dimen>
+    <dimen name="kttv_common_video_player_time_seekbar_margin_left">3dp</dimen>
+    <dimen name="kttv_common_video_player_time_seekbar_margin_right">3dp</dimen>
+    <dimen name="kttv_common_video_rewind_layout_width">194dp</dimen>
+    <dimen name="kttv_common_video_speed_time_text_height">66dp</dimen>
+    <dimen name="kttv_common_video_speed_trianle_height">14dp</dimen>
+    <dimen name="kttv_common_video_player_rewind_forward_layout_margin_bottom">60dp</dimen>
+    <dimen name="kttv_common_player_menu_remind_margin_top">20dp</dimen>
+    <dimen name="kttv_common_player_menu_remind_height">50dp</dimen>
+    <dimen name="kttv_common_player_menu_remind_text_margin_left">12dp</dimen>
+    <dimen name="kttv_common_video_preparing_progress_loading_speed_text_margin_right">80dp</dimen>
+    <dimen name="kttv_common_video_projection_playing_tips_margin_right">72dp</dimen>
+    <dimen name="kttv_common_video_projection_playing_tips_imageview_width">160dp</dimen>
+    <dimen name="kttv_common_video_projection_playing_tips_imageview_height">52dp</dimen>
+    <dimen name="kttv_common_video_preparing_progress_loading_text_margin_right">12dp</dimen>
+    <dimen name="kttv_common_video_player_loading_progress_bar_margin_right">12dp </dimen>
+    <dimen name="kttv_projection_samll_window_top_tips_margin_top">20dp</dimen>
+    <dimen name="kttv_projection_samll_window_top_tips_margin_left">20dp</dimen>
+    <dimen name="kttv_common_samll_window_title_text_margint_top">10dp</dimen>
+    <dimen name="kttv_projection_samll_window_show_tips_top_layout_height">60dp</dimen>
+
+    <!-- definition chooser view -->
+    <dimen name="kttv_common_video_clarity_menu_item_height">72dp</dimen>
+
+    <!-- player episode -->
+    <dimen name="kttv_common_player_menu_item_height_normal">80dp</dimen>
+    <dimen name="kttv_common_player_menu_item_height_large">100dp</dimen>
+    <dimen name="kttv_common_item_video_player_menu_padding_width">6dp</dimen>
+    <dimen name="kttv_common_player_menu_divider_width">12dp</dimen>
+    <dimen name="kttv_common_player_definition_layout_height">160dp</dimen>
+    <dimen name="kttv_common_player_menu_margin_left">80dp</dimen>
+    <dimen name="kttv_common_player_menu_margin_right">80dp</dimen>
+    <dimen name="kttv_common_video_player_error_text_max_width">900dp</dimen>
+    <dimen name="kttv_common_menu_remind_image_size">50dp</dimen>
+
+
+    <!-- tv dialog style -->
+    <dimen name="kttv_common_tvdialog_pading_left">45px</dimen>
+    <dimen name="kttv_common_tvdialog_padding_top">50px</dimen>
+    <dimen name="kttv_common_tvdialog_title_margin_bottom">35px</dimen>
+    <dimen name="kttv_common_tvdialog_msg_margin_bottom">50px</dimen>
+    <dimen name="kttv_common_tvdialog_btn_height">90px</dimen>
+    <dimen name="kttv_common_tvdialog_width">720px</dimen>
+    <dimen name="kttv_common_tvdialog_button_width">305px</dimen>
+    <dimen name="kttv_common_tvdialog_line_span">21px</dimen>
+
+    <!-- error network disconnect style  xhdpi *2 -->
+    <dimen name="kttv_common_error_player_button_height">96dp</dimen>
+    <dimen name="kttv_common_error_player_button_width">230dp</dimen>
+    <dimen name="kttv_projection_error_player_margin_top">40dp</dimen>
+    <dimen name="kttv_common_error_player_extra_margin_top">10dp</dimen>
+    <dimen name="kttv_common_error_button_margin_left">26.66dp</dimen>
+
+
+    
+      <!-- 绑定选择与解绑页面  -->
+    <dimen name="kttv_projection_choice_title_top">150dp</dimen>
+    <dimen name="kttv_projection_unbind_title_mtop">90dp</dimen>
+    <dimen name="kttv_projection_unbind_title_mleft">90dp</dimen>
+    <dimen name="kttv_projection_unbind_hg_mleft">30dp</dimen>
+    <dimen name="kttv_projection_unbind_hg_mright">30dp</dimen>
+    <dimen name="kttv_projection_unbind_hg_mtop">30dp</dimen>
+    <dimen name="kttv_projection_unbind_hg_mbottom">90dp</dimen>
+    <dimen name="kttv_projection_unbind_hg_hmargin">-60dp</dimen>
+    <dimen name="kttv_projection_unbind_hg_padding">75dp</dimen>
+    <dimen name="kttv_projection_unbind_multi_grid_shap_width">399dp</dimen>
+    <dimen name="kttv_projection_unbind_multi_grid_shap_mtop">30dp</dimen>
+    <dimen name="kttv_projection_unbind_multi_grid_iv_width">303dp</dimen>
+    <dimen name="kttv_projection_unbind_multi_grid_iv_mtop">78dp</dimen>
+    <dimen name="kttv_projection_unbind_multi_grid_del_width">267dp</dimen>
+    <dimen name="kttv_projection_unbind_multi_grid_del_height">75dp</dimen>
+    <dimen name="kttv_projection_unbind_multi_grid_tx_mtop">15dp</dimen>
+    <dimen name="kttv_projection_unbind_multi_grid_tip_mtop">3dp</dimen>
+    <dimen name="kttv_projection_unbind_multi_grid_tip_mbottom">75dp</dimen>
+    <dimen name="kttv_projection_unbind_bottom_dialog_content_mbottom">675dp</dimen>
+    <dimen name="kttv_projection_unbind_bottom_dialog_content_mtop">30dp</dimen>
+
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="kttv_projection_video_player_loading_network_text_size">36sp</dimen>
+    <dimen name="kttv_projection_video_prepare_title_text_size">36sp</dimen>
+    <dimen name="kttv_common_video_title_text_size">40sp</dimen>
+    <dimen name="kttv_common_video_player_bottom_time_text_size">30sp</dimen>
+    <dimen name="kttv_common_video_player_menu_text_size">30sp</dimen>
+    <dimen name="kttv_common_video_remind_text_size">30sp</dimen>
+    <dimen name="kttv_common_video_loading_text_size">30sp</dimen>
+    <dimen name="kttv_common_detail_episode_item_text_size">30sp</dimen>
+    <dimen name="kttv_common_player_menu_remind_text_size">30sp</dimen>
+    <dimen name="kttv_common_tvdialog_title_font_size">48sp</dimen>
+    <dimen name="kttv_common_tvdialog_msg_font_size">30sp</dimen>
+    <dimen name="kttv_common_tvdialog_btn_font_size">36sp</dimen>    
+    <dimen name="kttv_projection_samll_window_show_tips_top_size">26sp</dimen>
+    <dimen name="kttv_projection_samll_window_show_tips_bottom_size">32sp</dimen>
+    <dimen name="kttv_common_samll_window_title_text_size">24sp</dimen>
+
+    <dimen name="kttv_common_episode_prompt_content_size">30sp</dimen>
+
+    <!-- error text font size      xhdpi *1.5 -->
+    <dimen name="kttv_common_error_player_title_size">40sp</dimen>
+    <dimen name="kttv_common_error_player_extra_title_size">36sp</dimen>
+    <dimen name="kttv_common_error_player_button_text_size">30sp</dimen>   
+    <dimen name="kttv_common_small_view_error_player_title_size">24sp</dimen>
+    <dimen name="kttv_common_small_view_error_player_extra_title_size">20sp</dimen>
+    
+
+    <dimen name="kttv_projection_choice_title">42sp</dimen>
+    <dimen name="kttv_projection_unbind_dialog_btn_text_size">39sp</dimen>
+    <dimen name="kttv_projection_unbind_choic_grid_item_tx">36sp</dimen>
+    <dimen name="kttv_projection_unbind_choic_grid_item_tip">30sp</dimen>
+    
+ 
+	
+</resources>

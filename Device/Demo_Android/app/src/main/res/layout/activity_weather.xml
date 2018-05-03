@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/head"
+        layout="@layout/block_head" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/img_weather"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_weather_cloudy" />
+
+        <TextView
+            android:id="@+id/txt_current_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/img_weather"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/img_weather"
+            android:layout_toRightOf="@id/img_weather"
+            android:text="21°"
+            android:textColor="@color/white"
+            android:textSize="69sp" />
+
+        <TextView
+            android:id="@+id/txt_temp_lowandhigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="135dp"
+            android:layout_toEndOf="@id/txt_current_temperature"
+            android:layout_toRightOf="@id/txt_current_temperature"
+            android:text="21°~31°"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txt_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/txt_current_temperature"
+            android:layout_alignStart="@id/txt_current_temperature"
+            android:layout_below="@id/txt_current_temperature"
+            android:layout_marginTop="18dp"
+            android:text="杭州市"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:numColumns="4"
+        android:id="@+id/gv"
+        android:layout_alignParentBottom="true"
+        android:layout_height="100dp">
+
+    </GridView>
+
+</RelativeLayout>

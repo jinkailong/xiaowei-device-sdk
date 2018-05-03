@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121936"
+    android:orientation="vertical"
+    tools:context="com.tencent.aiaudio.activity.EditAlarmActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/block_head" />
+
+        <com.tencent.aiaudio.view.SettingItemView
+            android:id="@+id/setting_item_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:item_text="时间" />
+
+        <com.tencent.aiaudio.view.SettingItemView
+            android:id="@+id/setting_item_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:item_text="日期" />
+
+        <com.tencent.aiaudio.view.SettingItemView
+            android:id="@+id/setting_item_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:item_text="事件" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="重复"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/setting_item_repeat_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/repeat_type_expand_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/repeat_type_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:text="重复" />
+
+            <EditText
+                android:id="@+id/repeat_internal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                android:textColorHint="@color/gray"
+                android:hint="请输入重复间隔，例如1" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
